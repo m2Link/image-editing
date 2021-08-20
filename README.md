@@ -15,19 +15,16 @@ License -> https://github.com/FayasNoushad/Glitch-Art-Bot/blob/main/LICENSE
 
 ## Deploy 
 
-<details>
-  <summary><b>Deploy on Heroku</b></summary>
-
-<p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/BXBotz-MufazTG/Glitch-Art-Bot/tree/main">
-     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
-  </a>
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/BXBotz/Glitch-Art-Bot/tree/main">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 </p>
-
 </details>
 
-<details>
-  <summary><b>Deploy in your vps</b></summary>
+---
 
 ```sh
 git clone https://github.com/BXBotz/Glitch-Art-Bot/tree/main
