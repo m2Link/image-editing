@@ -23,7 +23,7 @@ I am a photo to glitch art telegram bot. Send me any photo I will convert photo 
 """
 START_BUTTONS = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('Uodates Channel', url='https://telegram.me/BX_Botz'),
+        InlineKeyboardButton('Updates Channel', url='https://telegram.me/BX_Botz'),
         InlineKeyboardButton('Support Group', url='https://telegram.me/BXSupport')
     ]]
 )
