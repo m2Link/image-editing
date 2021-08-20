@@ -15,14 +15,16 @@ Bot = Client(
 
 
 START_TEXT = """
-Hello {}, I am a photo to glitch art telegram bot.
+Hai {}, 
 
-Made by @FayasNoushad
+I am a photo to glitch art telegram bot. Send me any photo I will convert photo to glitch art
+
+<b>Made With ❤ By @BX_Botz</b>
 """
 START_BUTTONS = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('Channel', url='https://telegram.me/FayasNoushad'),
-        InlineKeyboardButton('Feedback', url='https://telegram.me/TheFayas')
+        InlineKeyboardButton('Uodates Channel', url='https://telegram.me/BX_Botz'),
+        InlineKeyboardButton('Support Group', url='https://telegram.me/BXSupport')
     ]]
 )
 PATH = os.environ.get("PATH", "./DOWNLOADS")
@@ -51,11 +53,11 @@ async def glitch_art(bot, update):
         )
     except Exception as error:
         await message.edit_text(
-            text=f"**Error :** `{error}`\nContact @TheFayas."
+            text=f"**Error :** `{error}`\n\nContact My [Support Group](https://t.me/BXSupport) "
         )
         return 
     await message.edit_text(
-        text="`Converting to glitch...`"
+        text="`🎨 Converting to glitch...`"
     )
     try:
         glitch_art = glitchart.jpeg(download_location)
@@ -64,7 +66,7 @@ async def glitch_art(bot, update):
         os.remove(glitch_art)
     except Exception as error:
         await message.edit_text(
-            text=f"**Error :** `{error}`\nContact @TheFayas."
+            text=f"**Error :** `{error}`\n\nContact My [Support Group](https://t.me/BXSupport)"
         )
         return
     await message.delete()
