@@ -53,4 +53,4 @@ python3 main.py
 
 - [Fayas Noushad](https://github.com/FayasNoushad)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [BX Botz](https://github.com/BX_Botz)
+- [BX Botz](https://github.com/BXBotz)
