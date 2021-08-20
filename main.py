@@ -1,4 +1,4 @@
-# Author: Fayas (https://github.com/FayasNoushad) (@FayasNoushad)
+# Author: Fayas (https://github.com/FayasNoushad) (@FayasNoushad) (@BXBotz)
 
 import os
 import glitchart
