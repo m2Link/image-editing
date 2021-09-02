@@ -19,24 +19,22 @@ Hai {},
 
 I am a photo to glitch art telegram bot. Send me any photo I will convert photo to glitch art
 
-<b>Made With ❤ By @BX_Botz</b>
+<b>Made With ❤ By @m2botz</b>
 """
-
-SOURCE_TEXT = """<b>🎁 MY Source Code</b>"""
 
 START_BUTTONS = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('Updates Channel', url='https://telegram.me/BX_Botz'),
-        InlineKeyboardButton('Support Group', url='https://telegram.me/BXSupport')
+        InlineKeyboardButton('Updates Channel', url='https://t.me/m2botz'),
+        InlineKeyboardButton('Support Group', url='https://t.me/m2botzsupport')
     ],
     [
-        InlineKeyboardButton('Source Code', url='https://github.com/FayasNoushad/Glitch-Art-Bot')
+        InlineKeyboardButton('Creator', url='https://t.me/ask_admin01')
     ]]
 )
 
 SOURCE_BUTTONS = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('🎨 Source Code ', url='https://github.com/FayasNoushad/Glitch-Art-Bot')
+        InlineKeyboardButton('Creator ', url='https://t.me/ask_admin01')
     ]]
 )
 
@@ -75,7 +73,7 @@ async def glitch_art(bot, update):
         )
     except Exception as error:
         await message.edit_text(
-            text=f"**Error :** `{error}`\n\nContact My [Support Group](https://t.me/BXSupport) "
+            text=f"**Error :** `{error}`\n\nContact My [Support Group](https://t.me/m2botzsupport) "
         )
         return 
     await message.edit_text(
@@ -88,7 +86,7 @@ async def glitch_art(bot, update):
         os.remove(glitch_art)
     except Exception as error:
         await message.edit_text(
-            text=f"**Error :** `{error}`\n\nContact My [Support Group](https://t.me/BXSupport)"
+            text=f"**Error :** `{error}`\n\nContact My [Support Group](https://t.me/m2botzsupport)"
         )
         return
     await message.delete()
